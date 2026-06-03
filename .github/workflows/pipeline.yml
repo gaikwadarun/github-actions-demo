@@ -17,7 +17,7 @@ jobs:
         run: ls -lrt
 
       - name: Print Message
-        run: echo "Hello Arun"
+        run: echo "This is latest update recieved now"
 
       - name: Show Date
         run: date
