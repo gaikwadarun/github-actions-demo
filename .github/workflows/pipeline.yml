@@ -1,0 +1,23 @@
+name: My First GitHub Action
+
+on:
+  push:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Show Files
+        run: ls -lrt
+
+      - name: Print Message
+        run: echo "Hello Arun"
+
+      - name: Show Date
+        run: date
